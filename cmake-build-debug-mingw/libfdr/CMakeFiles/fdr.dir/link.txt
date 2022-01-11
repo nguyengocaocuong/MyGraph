@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc libfdr.a CMakeFiles/fdr.dir/dllist.c.obj CMakeFiles/fdr.dir/fields.c.obj CMakeFiles/fdr.dir/jrb.c.obj CMakeFiles/fdr.dir/jval.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe libfdr.a

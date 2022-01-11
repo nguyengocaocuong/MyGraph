@@ -1,0 +1,6 @@
+C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/CMakeFiles/GRAPH.dir
+C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/CMakeFiles/fdr.dir
+C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/CMakeFiles/edit_cache.dir
+C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/CMakeFiles/rebuild_cache.dir

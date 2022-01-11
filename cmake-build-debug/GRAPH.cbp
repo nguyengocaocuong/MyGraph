@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GRAPH"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libfdr\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRAPH">
+				<Option output="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/GRAPH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH"/>
+					<Add directory="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr"/>
+					<Add directory="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRAPH"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRAPH/fast">
+				<Option output="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/GRAPH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH"/>
+					<Add directory="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr"/>
+					<Add directory="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRAPH/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdr">
+				<Option output="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/libfdr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 fdr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdr/fast">
+				<Option output="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/libfdr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 fdr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/src/mygraph.c">
+			<Option target="GRAPH"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/src/queue.c">
+			<Option target="GRAPH"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/TEST/bai2.c">
+			<Option target="GRAPH"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/dllist.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/dllist.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/fields.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/fields.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jrb.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jrb.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jval.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jval.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libfdr\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

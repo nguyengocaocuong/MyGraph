@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libfdr",
+					"jsonFile" : "directory-libfdr-Debug-c5670012221c2d0bff9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libfdr",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "GRAPH",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GRAPH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GRAPH-Debug-d505be66e12d83d6ee0d.json",
+					"name" : "GRAPH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fdr::@cb6f4e183f1615a9d716",
+					"jsonFile" : "target-fdr-Debug-e3c7d6244106c9cf80d6.json",
+					"name" : "fdr",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw",
+		"source" : "C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,136 @@
+                                                                                   Học kỳ 20152, K57
+
+                                Đề thi Lập trình C nâng cao
+                         (Thời gian làm bài 120’, được sử dụng tài liệu)
+
+Tìm đường truyền tin ngắn nhất trong mạng internet
+
+Mỗi khi chúng ta truy cập tới một địa chỉ web, xem một video clip, nghe một bản nhạc trên
+mạng internet, trong thực tế đang diễn ra quá trình trao đổi dữ liệu giữa thiết bị của chúng ta với
+một máy chủ có thể đang được đặt ở một nơi nào đó rất xa trên thế giới. Dữ liệu từ máy chủ
+chứa tài nguyên mà chúng ta quan tâm có thể phải truyền qua rất nhiều chạm trung chuyển khác
+để tới được thiết bị của chúng ta. Và hiển nhiên nếu có nhiều đường truyền như vậy, lựa chọn
+đường truyền ngắn nhất sẽ giúp đạt được tốc độ truyền dữ liệu tối ưu.
+
+Mỗi máy chủ sẽ được định danh bởi một chuỗi không quá 20 ký tự (địa chỉ IPv4), và chúng ta sẽ
+cấp cho mỗi chuỗi địa chỉ như vậy một chỉ số nguyên duy nhất. Khoảng cách giữa hai máy chủ
+bất kỳ cũng được thể hiện bằng một số nguyên dương, khoảng cách càng lớn thì độ trễ giữa hai
+máy sẽ càng lớn.
+
+Chúng ta sẽ mô hình hóa mạng lưới máy chủ bằng đồ thị vô hướng có trọng số. Trong đó các
+máy chủ là các đỉnh của đồ thị, một cạnh nối A và B với trọng số w thể hiện hai máy A và B có
+thể trao đổi thông tin và khoảng cách là w. Mô hình đồ thị của mạng lưới máy chủ được cho
+trong tệp văn bản sử dụng mã ASCII theo định dạng sau (xem bảng 1):
+
+Bảng 1. Định dạng tệp dữ liệu đầu vào, tệp dữ liệu mẫu
+
+   1. Dòng đầu tiên chứa 1 số nguyên dương n – là số lượng máy chủ           Nội dung tệp demo.txt
+   2. Trên n dòng tiếp theo, mỗi dòng là id (số nguyên) và địa chỉ IP        3
+      của máy chủ ngăn cách nhau bởi một dấu cách. Dữ liệu đầu vào           1 192.168.2.22
+      đảm bảo id của mỗi máy chủ là duy nhất.                                2 10.13.2.121
+   3. Tiếp theo trên dòng thứ n + 2 (chỉ số dòng đầu tiên là 1) là một       3 25.10.22.101
+      số nguyên dương m là số lượng liên kết giữa các máy chủ.               3
+   4. Kế tiếp trên mỗi dòng trong m dòng tiếp theo là một bộ ba số           1 2 100
+      ngăn cách nhau bởi dấu cách, mô tả một liên kết, gồm có id của         1 3 100
+      máy chủ thứ nhất, id của máy chủ thứ hai và khoảng cách giữa           2 3 300
+      hai máy này.
+
+Hãy cài đặt chương trình tiếp nhận tham số dòng lệnh và xử lý dữ liệu đồ thị theo đúng cú pháp
+được mô tả dưới đây (bảng 2). Trong bảng 2, p là tên chương trình, demo.txt là tên tệp dữ liệu.
+
+Bảng 2. Tham số dòng lệnh, cú pháp, ví dụ minh họa
+
+Lệnh                  Ý nghĩa                                          Kết quả chạy
+./p –h                In ra chuỗi C-Advanced, HK20152                  C-Advanced, HK20152
+./p -v demo.txt       In ra danh sách đỉnh theo định dạng id [dấu cách] ip
+                                                                       1 192.168.2.22
+                                                                       2 10.13.2.121
+                                                                       3 25.10.22.101
+./p –w demo.txt 1 3   In ra khoảng cách giữa máy 1 và 3, in ra -1 nếu 100
+                      không tồn tại đường truyền giữa 1 và 3.
+                                    (Còn lệnh trên trang tiếp theo)
+./p –p demo.txt 2 3   In ra đường đi ngắn nhất từ máy 2 đến máy 3 theo 200
+                       định dạng: dòng đầu là độ dài đường đi, mỗi dòng 10.13.2.121
+                       tiếp theo là một địa chỉ ip của máy chủ.           192.168.2.22
+                                                                          25.10.22.101
+./p –n demo.txt 1      In ra số lượng và danh sách máy chủ có đường 2
+                       truyền trực tiếp từ máy 1 và khoảng cách tới các 2 10.13.2.121 100
+                       máy này.                                           3 25.10.22.101 100
+./p –s demo.txt 1 3    Xuất đồ thị con với giới hạn tập đỉnh là {1, 3} từ 2
+                       demo.txt theo đúng định dạng như trong bảng 1.     1 192.168.2.22
+                                                                               3 25.10.22.101
+                                                                               1
+                                                                               1 3 100
+
+
+Yêu cầu:
+
+Tổ chức lưu trữ dữ liệu đồ thị theo danh sách kề sử dụng cây JRB là bắt buộc!
+
+Lưu ý:
+
+Các chức năng –w, -p, -s đều có 3 tham số trong đó tham số thứ nhất là tên tệp dữ liệu, 2 tham
+số tiếp theo là các số nguyên, theo thứ tự là id của đỉnh bắt đầu và đỉnh kết thúc.
+
+Chức năng –n có 2 tham số, trong đó tham số thứ nhất là tên tệp dữ liệu, tham số còn lại là số
+nguyên, là id của đỉnh cần xử lý.
+
+
+
+P.S.: Các vấn đề và giải pháp đã đề cập tới trong đề thi là mô phỏng theo vấn đề tìm đường truyền tin trong
+mạng. Vấn đề và giải pháp trong thực tế có thể phức tạp hơn rất nhiều.
+Kịch bản thi
+
+Bảng 3. Dữ liệu thi
+
+Nội dung tệp dữ liệu exam.txt   Biểu diễn đồ thị
+6                                                   300
+1 11.11.11.11                                 2                 5
+2 22.22.22.22                        400                                   200
+3 33.33.33.33
+5 55.55.55.55                                             300
+8 88.88.88.88                    1                                                   9
+9 99.99.99.99
+7                                    200                                   100
+1 2 400                                       3                 8                                                    300
+1 3 200                                               300
+2 5 300
+2 8 300
+3 8 300
+5 9 200
+8 9 100
+
+
+Bảng 4. Gọi lệnh
+
+STT Lệnh                             Kết quả đúng                   Điểm
+1     ./p –h                         C-Advanced, HK20152            1.0
+2     ./p –v exam.txt                1 11.11.11.11                  1.0
+                                     2 22.22.22.22
+                                     3 33.33.33.33
+                                     5 55.55.55.55
+                                     8 88.88.88.88
+                                     9 99.99.99.99
+3     ./p –w exam.txt 2 8            300                            0.5
+4     ./p –w exam.txt 5 9            200                            0.5
+      ./p –w exam.txt 9 5            200                            0.5
+      ./p –w exam.txt 9 1            -1                             0.5
+5     ./p –p exam.txt 1 9            600                            1.0 (độ dài)
+                                     1 11.11.11.11                  1.0 (đường đi)
+                                     3 33.33.33.33
+                                     8 88.88.88.88
+                                     9 99.99.99.99
+6     ./p –n exam.txt 5              2                              1.0 (số lượng)
+                                     22.22.22.22 300                1.0 (danh sách)
+                                     99.99.99.99 200
+7     ./p –s exam.txt 1 2 8 3        4                              1.0 (đỉnh)
+                                     1 11.11.11.11                  1.0 (cạnh)
+                                     2 22.22.22.22
+                                     3 33.33.33.33
+                                     8 88.88.88.88
+                                     4
+                                     1 3 200
+                                     1 2 400
+                                     2 8 300
+                                     3 8 300
+

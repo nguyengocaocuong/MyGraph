@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GRAPH"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libfdr\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRAPH">
+				<Option output="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/GRAPH.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH"/>
+					<Add directory="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr"/>
+					<Add directory="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 GRAPH"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRAPH/fast">
+				<Option output="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/GRAPH.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH"/>
+					<Add directory="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr"/>
+					<Add directory="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 GRAPH/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdr">
+				<Option output="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/libfdr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 fdr"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdr/fast">
+				<Option output="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/libfdr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 fdr/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/cmake-build-debug-mingw/libfdr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/src/mygraph.c">
+			<Option target="GRAPH"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/MyIgraph/src/queue.c">
+			<Option target="GRAPH"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/TEST/bai2.c">
+			<Option target="GRAPH"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/dllist.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/dllist.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/fields.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/fields.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jrb.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jrb.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jval.c">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/jval.h">
+			<Option target="fdr"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/nguye/Downloads/GRAPH-20220111T074821Z-001/GRAPH/libfdr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libfdr\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
